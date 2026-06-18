@@ -145,8 +145,7 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 // Credentials as constants at top
-const USER_EMAIL = 'snehal1415.patil@gmail.com';
-const USER_PASSWORD = 'Passport1$';
+Read `./config.md`
 
 // Reusable helpers
 async function login(page) {
@@ -261,10 +260,7 @@ const SIX_EVENTS_RESPONSE = {
 ```
 
 ### Test Users
-| User          | Email                       | Password    | Purpose          |
-|---------------|----------------------------|-------------|------------------|
-| Gmail User    | snehal1415.patil@gmail.com   | Passport1$ | Primary tester   |
-| Yahoo User    | snehal.patil14@yahoo.com   | Passport@1 | Cross-user tests |
+Read `./config.md`
 
 ---
 

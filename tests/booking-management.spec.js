@@ -1,8 +1,12 @@
 import { test, expect } from '@playwright/test';
+import dotenv from 'dotenv';
 
 const BASE_URL      = 'https://eventhub.rahulshettyacademy.com';
-const USER_EMAIL    = 'rahulshetty1@gmail.com';
-const USER_PASSWORD = 'Magiclife1!';
+
+dotenv.config();
+
+const USER_EMAIL    = process.env.USER_EMAIL;
+const USER_PASSWORD = process.env.USER_PASSWORD;
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
 

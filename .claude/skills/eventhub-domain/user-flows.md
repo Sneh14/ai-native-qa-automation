@@ -65,7 +65,4 @@ Run `npm run seed` to insert:
 - Food Festival Bangalore (Festival, 2000 seats, $149)
 
 ### Test Accounts
-| Account    | Email                    | Password    |
-|------------|--------------------------|-------------|
-| Gmail User | snehal1415.patil@gmail.com   | Passport1$ |
-| Yahoo User | snehal.patil14@yahoo.com   | Passport@1 |
+Read `./config.md`
